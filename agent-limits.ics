@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Muse//Agent Limits//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agent Limits
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:muse-weekly-20261105@agent-limits
+DTSTAMP:20261103T082400Z
+DTSTART;TZID=America/Toronto:20261105T091400
+DTEND;TZID=America/Toronto:20261105T101400
+SUMMARY:Muse limit resets
+DESCRIPTION:Free weekly limit. 40% used as of Nov 3, 2026 (checked in Muse), 60% left. No paid subscription. After this reset, send a fresh screenshot to start the next cycle.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Muse limit resets in 24 hours
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gemini-argon-weekly-20261104@agent-limits
+DTSTAMP:20261103T082400Z
+DTSTART;TZID=America/Toronto:20261104T174800
+DTEND;TZID=America/Toronto:20261104T184800
+SUMMARY:Gemini 4 Argon weekly limit resets
+DESCRIPTION:Weekly limit reset time from Ajay's Nov 2, 2026 screenshot. Percentage not recorded for this limit. After this reset, send a fresh screenshot to start the next cycle.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gemini 4 Argon weekly limit resets in 24 hours
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gemini-weekly-20261107@agent-limits
+DTSTAMP:20261103T082400Z
+DTSTART;TZID=America/Toronto:20261107T164800
+DTEND;TZID=America/Toronto:20261107T184800
+SUMMARY:Gemini weekly limit resets
+DESCRIPTION:Weekly limit reset time from Ajay's Nov 2, 2026 screenshot. Percentage not recorded for this limit. After this reset, send a fresh screenshot to start the next cycle.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gemini weekly limit resets in 24 hours
+END:VALARM
+END:VEVENT
+END:VCALENDAR
