@@ -75,4 +75,23 @@ ACTION:DISPLAY
 DESCRIPTION:GCP Always-Free quotas reset in 24 hours
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:antigravity-personal-reset-20261126@agent-limits
+DTSTAMP:20261120T023628Z
+DTSTART;TZID=America/Toronto:20261126T183000
+DTEND;TZID=America/Toronto:20261126T193000
+RRULE:FREQ=WEEKLY
+SUMMARY:✨ Antigravity (personal) weekly reset
+DESCRIPTION:Gemini Models and Gemini 4 Argon weekly limits for the 
+ Antigravity (Google) personal account. Derived from a Thu Nov 19\, 2026 
+ ~9:31 PM America/Toronto capture\, when both showed a reset in 6d 21h. 
+ The Claude/GPT weekly limit showed no reset time at capture\, so its 
+ reset date isn't known yet. The Gemini Models 5h limit is a rolling 
+ window and is omitted.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Antigravity (personal) weekly limits reset in 24 hours
+END:VALARM
+END:VEVENT
 END:VCALENDAR
